@@ -4,4 +4,13 @@ const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday
 
 console.log(currentTime.getHours() + ":" + currentTime.getMinutes() + ":" + currentTime.getSeconds() + " " + weekday[currentTime.getDay()]);
 
-var name = prompt("lütfen isim giriniz: ");
+
+
+
+
+
+
+// var isim = prompt("lütfen isim giriniz: ");
+
+// document.getElementById("myName").innerText = "merhaba" + isim + "Hoşgeldin";
+
