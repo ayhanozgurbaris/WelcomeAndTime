@@ -6,9 +6,15 @@ if (isim != null) {
 
 
 
+
 let currentTime = new Date();
 
 const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-// var zaman = currentTime.getHours() + ":" + currentTime.getMinutes() + ":" + currentTime.getSeconds() + " " + weekday[currentTime.getDay()];
 
-document.getElementById("time").innerText = currentTime.getHours() + ":" + currentTime.getMinutes() + ":" + currentTime.getSeconds() + " " + weekday[currentTime.getDay()];
+var hours = currentTime.getHours();
+var minutes = currentTime.getMinutes();
+var seconds = currentTime.getSeconds();
+var gun = currentTime.getDay();
+
+document.getElementById("time").innerText = hours + ":" + minutes + ":" + seconds + " " + weekday[gun];
+
