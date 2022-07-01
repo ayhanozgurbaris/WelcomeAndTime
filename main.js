@@ -10,7 +10,9 @@ console.log(currentTime.getHours() + ":" + currentTime.getMinutes() + ":" + curr
 
 
 
-// var isim = prompt("lütfen isim giriniz: ");
+var isim = prompt("lütfen isim giriniz: ");
 
-// document.getElementById("myName").innerText = "merhaba" + isim + "Hoşgeldin";
+if (isim != null) {
+    document.getElementById("myName").innerText = `Merhaba ${isim} Hoşgeldin;`;    
+}
 
