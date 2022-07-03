@@ -16,7 +16,9 @@ function timeUpdate() {
     var seconds = currentTime.getSeconds();
     var gun = currentTime.getDay();
 
-    document.getElementById("time").innerText = hours + ":" + minutes + ":" + seconds + " " + weekday[gun];
+
+    document.getElementById("time").innerText = `${hours} : ${minutes} : ${seconds} : ${weekday[gun]}`;
+
 }
 
 setInterval(timeUpdate,1000);
