@@ -5,7 +5,7 @@ if (isim != null) {
 }
 
 
-function timeUpdate() {
+function showTime() {
 
     let currentTime = new Date();
 
@@ -21,5 +21,5 @@ function timeUpdate() {
 
 }
 
-setInterval(timeUpdate,1000);
+setInterval(showTime,1000);
 
